@@ -740,10 +740,7 @@ body * {
     text-transform: uppercase;
     color: white;
 }
-.section-contacts {
-    height: 954px;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.72) ),  url(images/image\ 7.2.jpg);
-}
+
 .contacts-title {
     font-size: 20px;
     line-height: 27px;
@@ -837,7 +834,7 @@ body * {
 }
 .section-contacts {
     height: 951px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.72) ), url(image\ 7.2.jpg);        margin-left: 0px;   
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.72) ), url(images/image\ 7.2.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
