@@ -945,6 +945,9 @@ body * {
     margin: 0px;
     width: 375px;
 }
+span {
+    color: white;
+}
  .input__online {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
@@ -969,8 +972,9 @@ body * {
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
-    margin: 18px;
+    margin-left: 18px;
     text-decoration: none;
+    margin-bottom: 0px;
 }
 .header_navigation__itemtel{
     font-size: 11px;
@@ -1395,12 +1399,13 @@ body {
     height: 100%;
     box-sizing: border-box;
     margin: 0;
+    padding: 0px;
   }
   
   body {
     overflow-y: scroll;
     width: calc(100% + 20px);
-    padding: 8px;
+    width: 375px;
   }
 
 }  
