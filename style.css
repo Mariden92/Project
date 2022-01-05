@@ -1254,7 +1254,7 @@ body * {
 }
 .form__questions {
     width: 375px;
-    
+    z-index: -2;
     margin: -1100px;
     background-color: black;
     height: 705px;
@@ -1380,6 +1380,7 @@ body {
     height: 241px;
     background-image: url(image\ 5.3.png);
     margin: 18px;
+    z-index: 3;
 }
 .realize_photo {
     display: none;
