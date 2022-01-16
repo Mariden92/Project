@@ -1,13 +1,28 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
-.button {
-    border:0.5px solid black;
+
+.arrows{
+    display: flex;
+    color: white;
+    width: 210px;
+    height: 20px;
+    font-size: 50px;
+    line-height: 50px;
     cursor: pointer;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.button {
+    border:0.5px solid white;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
 }
 .button:hover{
     border-color:transparent;
 }
+
 ::-webkit-scrollbar {
     width: 0;
   }
@@ -25,9 +40,7 @@
     top: 7px;
     right: 8px;
   }
-  
 
-  
   input[type="checkbox"]:hover {
     filter: brightness(90%);
   }
@@ -100,6 +113,9 @@ span {
     color: white;
     font-style: italic;
     text-transform: uppercase;
+}
+.subtitle-photos:hover{
+    color: #E3B873;
 }
 .subtitle-header{
     font-family: 'Nunito Sans', sans-serif;
@@ -257,12 +273,7 @@ body * {
     margin-top: 0px;
     background-size: cover;
  }
- .arrow {
-     margin-top: 100px;
-     margin-left: -40px;
-     width: 400px;
-     height: 100px; 
- }
+
  .div-photos {
     width: 250px;
     height: 512px;
@@ -300,6 +311,20 @@ body * {
     height: 434px;
     width: 817px;
 }
+
+.play {
+  
+    width: 120px;
+    height: 120px;
+}
+ .buttonplay{
+    width: 85px;
+    height: 85px;
+    position: relative;
+    top: -250px;
+    left: 364px;  
+}
+
 .projects__ul {
     width: 736px;
     height: 43px;
@@ -701,6 +726,7 @@ body * {
     size: 20px;
     line-height: 24px;
     color: white;
+    text-decoration: none;
 }
 .subtitle-photos_1 {
     size: 20px;
@@ -730,7 +756,7 @@ body * {
 .div-client {
     width: 376px;
     height: 428px;
-    
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     
 }
 .subtitle-clients{
@@ -937,7 +963,10 @@ body * {
     height: 133px;
     align-items: center;
 }
-
+a:hover {
+    text-decoration: underline;
+    color: #E3B873  
+   }
 
 
 @media only screen and (max-width: 375px) {
@@ -1376,6 +1405,7 @@ body {
     height: 241px;
     background-image: url(image_2.jpg);
 }
+
 .photo_project {
     display: none;
 }
@@ -1407,5 +1437,43 @@ body {
     width: calc(100% + 20px);
     width: 375px;
   }
-
+  a:hover {
+    text-decoration: underline;
+    color: #E3B873  
+   }
+   .subtitle-photos:hover{
+    color: #E3B873;
+}
+.arrowleft {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: -123px;
+    left: 134px;
+}
+.arrowright {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: -155px;
+    right: 134px;
+}
+.arrowleftt {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: -153px;
+    left: 310px;
+}
+.arrowrightt {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: -189px;
+    left: 30px;
+   
+}
+.arrows{
+    display: none;
+}
 }  
