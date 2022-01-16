@@ -13,7 +13,18 @@
     justify-content: center;
     margin-top: 85px;
 }
-
+.arrowleft {
+    display: none;
+}
+.arrowright {
+    display: none;
+}
+.arrowleftt {
+    display: none;
+}
+.arrowrightt {
+    display: none;
+}
 .button {
     border:0.5px solid white;
     cursor: pointer;
@@ -1450,6 +1461,7 @@ body {
     position: relative;
     top: -123px;
     left: 134px;
+    display: flex;
 }
 .arrowright {
     width: 36px;
@@ -1457,6 +1469,7 @@ body {
     position: relative;
     top: -155px;
     right: 134px;
+    display: flex;
 }
 .arrowleftt {
     width: 36px;
@@ -1464,6 +1477,7 @@ body {
     position: relative;
     top: -153px;
     left: 310px;
+    display: flex;
 }
 .arrowrightt {
     width: 36px;
@@ -1471,6 +1485,7 @@ body {
     position: relative;
     top: -189px;
     left: 30px;
+    display: flex;
    
 }
 .arrows{
